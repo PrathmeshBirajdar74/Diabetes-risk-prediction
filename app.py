@@ -127,14 +127,14 @@ elif page == "📊 EDA Dashboard":
     with tab3:
         st.subheader("Feature Importances")
         try:
-            st.image("feature_importance.png", use_column_width=True)
+            st.image("feature_importance.png", width='stretch')
         except:
             st.warning("Run eda_and_model.py first to generate this chart.")
 
     with tab4:
         st.subheader("Class Balance")
         try:
-            st.image("eda_class_distribution.png", use_column_width=True)
+            st.image("eda_class_distribution.png", width='stretch')
         except:
             fig, ax = plt.subplots(figsize=(5, 5))
             counts = df['Outcome'].value_counts()
