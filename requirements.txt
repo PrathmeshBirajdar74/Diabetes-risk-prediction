@@ -1,1 +1,7 @@
-streamlit pandas numpy matplotlib seaborn scikit-learn pillow
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+pillow
