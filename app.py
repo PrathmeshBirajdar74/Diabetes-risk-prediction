@@ -98,7 +98,7 @@ elif page == "📊 EDA Dashboard":
     with tab1:
         st.subheader("Feature Distributions by Outcome")
         try:
-            st.image("eda_distributions.png", use_column_width=True)
+            st.image("eda_distributions.png", width='stretch')
         except:
             # Generate on the fly if image not found
             features_plot = ['Glucose', 'BMI', 'Age', 'BloodPressure', 'Insulin', 'Pregnancies']
